@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@tailwindcss/postcss": "^4.3.2",
     "next": "^16.2.10",
+    "postcss": "^8.5.16",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.2"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",

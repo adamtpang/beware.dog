@@ -1,111 +1,131 @@
-:root {
-  --bg: #0a0a0a;
-  --fg: #f5f5f5;
-  --muted: #8a8a8a;
-  --warn: #e7ff2f;
-  --warn-dark: #0a0a0a;
+@import "tailwindcss";
+
+/* ---- design tokens ------------------------------------------------------ */
+@theme {
+  --color-night: #090a0e;
+  --color-panel: #0f1118;
+  --color-panel-2: #14161f;
+  --color-line: #23262f;
+
+  --color-bone: #f4f1ea;
+  --color-ash: #969ca7;
+  --color-ash-dim: #676c76;
+
+  --color-brass: #f5b301;
+  --color-brass-soft: #ffcf5c;
+  --color-ember: #ff5a36;
+  --color-allclear: #37d99a;
+
+  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* ---- base --------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
 }
 
-html,
 body {
-  height: 100%;
-}
-
-body {
-  background: var(--bg);
-  color: var(--fg);
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif;
+  background-color: var(--color-night);
+  color: var(--color-bone);
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
-.wrap {
-  min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+::selection {
+  background: var(--color-brass);
+  color: #0a0b0e;
 }
 
-.tape {
-  width: 100%;
-  height: 14px;
-  background: repeating-linear-gradient(
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* ---- brand motifs ------------------------------------------------------- */
+
+/* hazard tape */
+.hazard {
+  background-image: repeating-linear-gradient(
     -45deg,
-    var(--warn),
-    var(--warn) 22px,
-    var(--warn-dark) 22px,
-    var(--warn-dark) 44px
+    var(--color-brass) 0 16px,
+    #0a0a0a 16px 32px
   );
 }
 
-.hero {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  gap: 1.25rem;
+/* film grain, sits above everything, purely decorative */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--muted);
+/* warm spotlight behind the hero dog */
+.spotlight {
+  background: radial-gradient(
+    58% 55% at 50% 42%,
+    rgba(245, 179, 1, 0.16),
+    rgba(245, 179, 1, 0.04) 45%,
+    transparent 72%
+  );
 }
 
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--warn);
-  box-shadow: 0 0 0 0 rgba(231, 255, 47, 0.7);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
+/* ---- animation ---------------------------------------------------------- */
+@keyframes pulse-ring {
   0% {
-    box-shadow: 0 0 0 0 rgba(231, 255, 47, 0.6);
-  }
-  70% {
-    box-shadow: 0 0 0 12px rgba(231, 255, 47, 0);
+    transform: scale(0.55);
+    opacity: 0.7;
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(231, 255, 47, 0);
+    transform: scale(2.05);
+    opacity: 0;
   }
 }
-
-.wordmark {
-  font-size: clamp(3rem, 14vw, 9rem);
-  font-weight: 800;
-  letter-spacing: -0.04em;
-  line-height: 0.95;
+.pulse-ring {
+  animation: pulse-ring 3.4s ease-out infinite;
+}
+.pulse-ring-2 {
+  animation-delay: 1.7s;
 }
 
-.tld {
-  color: var(--warn);
+@keyframes eye-blink {
+  0%, 91%, 100% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.25;
+  }
+}
+.eye-glow {
+  animation: eye-blink 5.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 5px rgba(255, 207, 92, 0.75));
 }
 
-.tagline {
-  color: var(--muted);
-  font-size: clamp(1rem, 3vw, 1.35rem);
-  max-width: 40ch;
+@keyframes status-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(55, 217, 154, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 5px rgba(55, 217, 154, 0);
+  }
+}
+.status-dot {
+  animation: status-pulse 2.2s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .dot {
+  html {
+    scroll-behavior: auto;
+  }
+  .pulse-ring,
+  .eye-glow,
+  .status-dot {
     animation: none;
   }
 }
