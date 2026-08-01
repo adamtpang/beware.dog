@@ -17,6 +17,8 @@ number or a dated receipt.
 | Weekly active usage | n/a, service is delivered by hand | n/a | 2026-08-01 |
 | Time to first value | same day (the free scan) | designed, not yet observed | 2026-08-01 |
 | Public posts published | **0** | drafts only, see launch/ | 2026-08-01 |
+| Live site matches the offer | yes | https://beware.dog, verified after deploy | 2026-08-01 |
+| Vercel Analytics collecting | provisioned, not yet confirmed collecting | `/_vercel/insights/script.js` returns 200 with a real script; confirm data appears in the Vercel dashboard | 2026-08-01 |
 | Cost / burn attributable | domain $54/yr, Vercel and Neon on free tier | Vercel, Neon | 2026-08-01 |
 | Top risk | No buyer has ever been asked to pay. Nothing is falsified yet. | this file | 2026-08-01 |
 
@@ -70,6 +72,7 @@ settings, but it affects every product on the account, so it is your call.
 | 2026-08-01 | Vercel Analytics wired in code | not installed | `@vercel/analytics` + `<Analytics />` in layout | app/layout.tsx |
 | 2026-08-01 | Fleet footer added | none | hub + anchormarianas.com + sellsniper.com | components/FleetFooter.tsx |
 | 2026-08-01 | Launch posts drafted | none | LinkedIn + local community, sourced, unsent | launch/LAUNCH_DRAFTS.md |
+| 2026-08-01 | Deployed to production on Adam's instruction | live site still carried the false 24/7 and ransomware claims | live site serves the honest Watch copy, verified by fetching https://beware.dog | deploy `beware-e8jbrxz8e`, Ready in 19s |
 
 ## Tool run log
 
