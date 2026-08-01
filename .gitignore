@@ -33,3 +33,6 @@ next-env.d.ts
 
 # customer scan output. Never commit a customer's domain data.
 /reports/
+
+# outreach drafts, never committed (public repo)
+sales/
