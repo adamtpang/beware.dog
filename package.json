@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "watch:lookalike": "node scripts/lookalike-check.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
     "@tailwindcss/postcss": "^4.3.2",
+    "@vercel/analytics": "^2.0.1",
     "next": "^16.2.10",
     "postcss": "^8.5.16",
     "react": "^19.2.7",
