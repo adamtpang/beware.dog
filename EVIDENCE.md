@@ -73,6 +73,11 @@ settings, but it affects every product on the account, so it is your call.
 | 2026-08-01 | Fleet footer added | none | hub + anchormarianas.com + sellsniper.com | components/FleetFooter.tsx |
 | 2026-08-01 | Launch posts drafted | none | LinkedIn + local community, sourced, unsent | launch/LAUNCH_DRAFTS.md |
 | 2026-08-01 | Deployed to production on Adam's instruction | live site still carried the false 24/7 and ransomware claims | live site serves the honest Watch copy, verified by fetching https://beware.dog | deploy `beware-e8jbrxz8e`, Ready in 19s |
+| 2026-08-06 | LinkedIn post tightened for the "see more" cut | 391-word draft, same claims | ~280-word draft, same sourced claims, original kept below for reference | launch/LAUNCH_DRAFTS.md |
+| 2026-08-06 | Direct 1:1 first-buyer message drafted | no direct outreach template existed | fill-in-the-blank warm-contact message, reuses the existing free-scan reply | sales/first-buyer-message.md |
+| 2026-08-06 | repos.yaml minted and verified | no manifest, kin relationships undocumented | clean verify, kin anchormarianas.com + sellsniper.com | repos.yaml, `node repos.mjs verify` |
+| 2026-08-06 | Nothing posted yet | n/a | still 0 revenue, 0 customers, the ask has not been sent | this file |
+| 2026-08-06 | LinkedIn post published, tightened version | drafted, unposted | live on LinkedIn, per Adam | Adam, this session. Impressions/replies not yet checked, log a follow-up row once known, a zero here is still real data |
 
 ## Tool run log
 

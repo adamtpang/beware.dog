@@ -15,6 +15,78 @@ number without checking the source first.
 
 ---
 
+A finance worker joined a routine video call with his CFO and a few colleagues.
+
+Everyone else on the call was a deepfake.
+
+He approved 15 transfers. $25 million, gone. The company was Arup, 18,000
+people, a real security team. Hong Kong police reported it in 2024.
+
+Arup had defenses and still lost. Most businesses I know have a bookkeeper, a
+shared inbox, and a rule that lives in someone's head.
+
+The scam usually runs in three moves:
+
+1. Someone registers a domain one letter off from yours.
+2. That domain emails your bookkeeper an invoice that looks normal.
+3. Then the phone rings, in your voice, because 30 seconds of you talking is
+enough to clone it now.
+
+BEC scams took $3.05 billion off US businesses in 2025, the FBI's own number
+(24,800 cases, ~$123K average loss), second only to investment fraud.
+
+So I built beware.dog, for businesses too small to have a security team.
+
+Weekly domain scans. A monthly drill on whoever can send a payment. One page
+telling you what it found.
+
+That's it. It does not read your email, does not touch your files, and will
+not pretend to stop ransomware.
+
+Want to see what's already registered against your business? Reply "scan."
+Free, no pitch.
+
+beware.dog
+
+---
+
+## 2. r/smallbusiness pond (drafted 2026-08-07, verify a live "scam/fraud" thread before posting)
+
+Angle: same value-first shape as the LinkedIn post, no self-promo tone, the free
+scan is the offer, one line at the end. Rule for this pond: no link-drops, no
+"check out my product," reply inside an existing thread about invoice fraud,
+BEC, or phishing where this genuinely helps, or post fresh only if the sub
+allows it (check the sidebar rules first, they change).
+
+> Real number that surprised me: FBI's 2025 report has business email
+> compromise at $3.05B across ~24,800 cases in the US, average loss around
+> $123K. Most of it is the same three-step play: a lookalike domain, a fake
+> invoice that looks routine, then a call that sounds exactly like your
+> vendor or your own boss because 30 seconds of public audio is enough to
+> clone a voice now.
+>
+> If you want to know what's already registered that looks like your domain,
+> reply and I'll run it free, no pitch. Built a small tool for exactly this
+> (beware.dog) because most small businesses have a bookkeeper and a shared
+> inbox, not a security team.
+
+### Pond notes
+
+- r/smallbusiness: high traffic, rule-sensitive on self-promo, lead with the
+  free-scan-in-comments angle, never a fresh link-post.
+- r/msp (managed service providers): different buyer (they'd resell/recommend
+  it to clients), worth a second, MSP-angled post later, not today.
+- Verify each subreddit's current self-promo rule before posting; they change
+  and a rule violation costs more than the post is worth.
+
+Sources for the fresher stat: FBI IC3 2025 Internet Crime Report (released
+April 2026), reported via plow.net and multiple 2026 cybersecurity summaries.
+
+---
+
+**(tightened version above, 2026-08-06, for the LinkedIn "see more" cut. Original
+longer draft kept below for reference.)**
+
 A finance worker joined a routine video call with the CFO and a few colleagues.
 
 Everyone on that call was a deepfake except him.
