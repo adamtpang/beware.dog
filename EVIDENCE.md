@@ -78,6 +78,7 @@ settings, but it affects every product on the account, so it is your call.
 | 2026-08-06 | repos.yaml minted and verified | no manifest, kin relationships undocumented | clean verify, kin anchormarianas.com + sellsniper.com | repos.yaml, `node repos.mjs verify` |
 | 2026-08-06 | Nothing posted yet | n/a | still 0 revenue, 0 customers, the ask has not been sent | this file |
 | 2026-08-06 | LinkedIn post published, tightened version | drafted, unposted | live on LinkedIn, per Adam | Adam, this session. Impressions/replies not yet checked, log a follow-up row once known, a zero here is still real data |
+| 2026-08-09 | Tailored r/smallbusiness reply written for a specific live thread ("Employee got scammed", 105 upvotes, 135+ comments) | generic pond draft only, no thread found | thread found, reply drafted and honest about the mismatch (impersonation/gift-card scam, not the invoice/domain pattern the tool addresses), ready to post | launch/LAUNCH_DRAFTS.md section 2b |
 
 ## Tool run log
 

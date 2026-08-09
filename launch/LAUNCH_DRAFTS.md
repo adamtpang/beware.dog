@@ -82,6 +82,32 @@ allows it (check the sidebar rules first, they change).
 Sources for the fresher stat: FBI IC3 2025 Internet Crime Report (released
 April 2026), reported via plow.net and multiple 2026 cybersecurity summaries.
 
+### 2b. Tailored reply, ready: r/smallbusiness "Employee got scammed" thread
+
+Written 2026-08-09 for a specific live thread (105 upvotes, 135+ comments, 13
+days old at time of writing): an employee was phone-scammed into buying $1,300
+of gift cards after a caller falsely claimed the owner was committing fraud.
+Thread: https://www.reddit.com/r/smallbusiness/comments/1v8004h/employee_got_scammed/
+
+This is impersonation-plus-urgency, not the invoice/lookalike-domain pattern
+the pond draft above is built around, so this reply does NOT reuse that copy.
+It names the mismatch honestly and does not claim the scan would have caught
+this specific incident, because it would not have.
+
+> Sorry this happened to your employee. This is a well-known scam pattern
+> (impersonate an authority figure, manufacture urgency, get someone to move
+> money or buy gift cards before they can verify), and it's only gotten
+> easier with AI. The same setup increasingly starts with a lookalike domain
+> and a cloned voice instead of a phone call from an unknown number, so the
+> "does this sound like my boss" check people rely on is getting less
+> reliable every year.
+>
+> If you want a free look at what's already registered that looks like your
+> business's domain (a common first step in the invoice/wire version of
+> this), reply and I'll run it. No pitch, just the scan. I built a small
+> tool for exactly this after seeing how many small businesses have a
+> bookkeeper and a shared inbox instead of a security team.
+
 ---
 
 **(tightened version above, 2026-08-06, for the LinkedIn "see more" cut. Original
