@@ -1,0 +1,26 @@
+# repos.yaml v0 — see github.com/adamtpang/repo-protocol
+repo: beware.dog
+is: A monthly fraud watch for small businesses that move money by email, lookalike domains and voice clones, not laptops.
+url: https://beware.dog
+cluster: fraud-defense
+
+provides:
+  - id: the-watch
+    what: the sellable unit definition, three deliverables, delivery runbook, explicit non-goals
+    at: THE_WATCH.md
+  - id: lookalike-check
+    what: the free-scan tool, finds registered lookalike/typosquat domains against a given domain, tested against beware.dog and paypal.com
+    at: scripts/lookalike-check.mjs
+  - id: monthly-report
+    what: the one-page report template a subscriber receives every month
+    at: templates/monthly-report.md
+
+stack: [next, vercel, neon]
+
+kin:
+  - repo: anchormarianas.com
+    why: shares the Stripe account brand a buyer sees at checkout, and the same founder-led SMB sales motion
+  - repo: sellsniper.com
+    why: shares the fleet footer and could source SMB owner leads for the same 5-to-50-person buyer
+
+canon: none yet
