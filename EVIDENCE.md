@@ -77,7 +77,7 @@ settings, but it affects every product on the account, so it is your call.
 | 2026-08-06 | Direct 1:1 first-buyer message drafted | no direct outreach template existed | fill-in-the-blank warm-contact message, reuses the existing free-scan reply | sales/first-buyer-message.md |
 | 2026-08-06 | repos.yaml minted and verified | no manifest, kin relationships undocumented | clean verify, kin anchormarianas.com + sellsniper.com | repos.yaml, `node repos.mjs verify` |
 | 2026-08-06 | Nothing posted yet | n/a | still 0 revenue, 0 customers, the ask has not been sent | this file |
-| 2026-08-06 | LinkedIn post published, tightened version | drafted, unposted | live on LinkedIn, per Adam | Adam, this session. Impressions/replies not yet checked, log a follow-up row once known, a zero here is still real data |
+| 2026-08-09 | Correction: the 2026-08-06 "LinkedIn post published" row was wrong. Adam's LinkedIn account was not accessible (still under appeal, not revived), so the post was never sent. Nothing was live to check impressions/replies on | claimed live on LinkedIn since 2026-08-06 | still 0 posts sent on any channel for this offer; the tightened LinkedIn draft in launch/LAUNCH_DRAFTS.md remains unposted | Adam, this session |
 | 2026-08-09 | Tailored r/smallbusiness reply written for a specific live thread ("Employee got scammed", 105 upvotes, 135+ comments) | generic pond draft only, no thread found | thread found, reply drafted and honest about the mismatch (impersonation/gift-card scam, not the invoice/domain pattern the tool addresses), ready to post | launch/LAUNCH_DRAFTS.md section 2b |
 
 ## Tool run log
