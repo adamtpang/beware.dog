@@ -22,5 +22,9 @@ kin:
     why: shares the Stripe account brand a buyer sees at checkout, and the same founder-led SMB sales motion
   - repo: sellsniper.com
     why: shares the fleet footer and could source SMB owner leads for the same 5-to-50-person buyer
+  - repo: pond-finder
+    why: pond-finder found the r/smallbusiness, r/msp, and r/bookkeeping candidate threads beware.dog's replies are drafted against, tested live 2026-08-09
+  - repo: redmart.xyz
+    why: the intended future surface for pond-finder's beware.dog leads, once redmart's demand feed is wired to real Reddit data instead of mock items
 
 canon: none yet
