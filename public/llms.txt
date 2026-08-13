@@ -1,0 +1,45 @@
+# beware.dog
+
+> beware.dog is a monthly fraud watch service for small businesses (5 to 50
+> people) that move money by email: title and escrow companies, bookkeeping
+> and accounting firms, agencies, clinics, property managers, law firms.
+> It watches for lookalike domains registered against the business, drills
+> the staff who can approve wires and invoices against fake emails and
+> cloned-voice phone calls, and reports what it found in one page a month.
+
+beware.dog is built for businesses too small to have a security team. There
+is no IT manager here; the buyer is the owner or operator. The product is
+run by one named founder, not a support ticket queue.
+
+## The offer
+
+The Watch: $149/month, founding rate locked for life (standard rate $299/mo
+once founding spots fill). Founding spots capped at 25 because each account
+is watched personally. Cancel anytime, no contract. The first lookalike
+domain scan is run and shown before any money changes hands. If the first
+monthly report does not land within 7 days of signup, that month is free.
+
+What's included, every month:
+- Weekly lookalike-domain scan of the business's domain, with alerts within
+  one business day when a new fake registration appears
+- One phishing-email drill and one phone/voice-clone drill against the
+  people who can actually move money, with a debrief of who verified and
+  what to change
+- A one-page monthly report in plain English, no dashboard to log into
+
+What it explicitly does not do: read, filter, or sit inside your email;
+monitor or listen to phone lines; touch files, servers, or backups; or stop
+ransomware (that's an MSP's job, and beware.dog will say so).
+
+## Key links
+
+- [Home](https://beware.dog/): the offer, the three moves of the scam it
+  defends against, and the founding-rate signup.
+- Payment: https://buy.stripe.com/bJe3cva78dB35kcc4NaMU0s ($149/mo founding
+  rate via Stripe Checkout)
+- Contact: hello@beware.dog
+
+## About
+
+Part of Adam Pangelinan's product portfolio (see https://adampang.com).
+Sibling project: anchormarianas.com (shared founder, shared Stripe brand).
