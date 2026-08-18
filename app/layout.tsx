@@ -18,13 +18,16 @@ const inter = Inter({
 
 const title = "beware.dog: the AI guard dog for your business";
 const description =
-  "24/7 AI security that watches your inbox, phone lines, and files, barks the moment something looks wrong, and helps you shut it down. Built for small businesses that cannot afford a security team.";
+  "beware.dog watches for lookalike domains built to scam you, then drills your team monthly against fake-invoice email and voice-clone phone scams.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://beware.dog"),
   title,
   description,
   applicationName: "beware.dog",
+  alternates: {
+    canonical: "https://beware.dog",
+  },
   keywords: [
     "small business cybersecurity",
     "phishing protection",
@@ -63,7 +66,10 @@ const structuredData = {
         "@type": "Person",
         name: "Adam Pangelinan",
       },
-      sameAs: ["https://anchormarianas.com"],
+      sameAs: [
+        "https://anchormarianas.com",
+        "https://github.com/adamtpang/beware.dog",
+      ],
     },
     {
       "@type": "WebSite",
@@ -72,28 +78,29 @@ const structuredData = {
       name: title,
       description,
       publisher: { "@id": "https://beware.dog/#organization" },
-    },
-    {
-      "@type": "Service",
-      "@id": "https://beware.dog/#the-watch",
-      name: "The Watch",
-      serviceType: "Fraud and impersonation monitoring for small business",
-      description:
-        "Weekly lookalike-domain scans, monthly phishing and voice-clone drills for the staff who move money, and a one-page monthly report.",
-      provider: { "@id": "https://beware.dog/#organization" },
-      areaServed: { "@type": "Country", name: "United States" },
-      audience: {
-        "@type": "BusinessAudience",
-        audienceType:
-          "Small businesses of 5 to 50 people that move money by email: title and escrow companies, bookkeepers, accounting firms, agencies, clinics",
-      },
-      offers: {
-        "@type": "Offer",
-        price: "149",
-        priceCurrency: "USD",
-        description: "Founding rate, locked for life. Standard rate is $299/mo.",
-        url: "https://beware.dog/#offer",
-        availability: "https://schema.org/InStock",
+      author: { "@id": "https://beware.dog/#organization" },
+      mainEntity: {
+        "@type": "Service",
+        "@id": "https://beware.dog/#the-watch",
+        name: "The Watch",
+        serviceType: "Fraud and impersonation monitoring for small business",
+        description:
+          "Weekly lookalike-domain scans, monthly phishing and voice-clone drills for the staff who move money, and a one-page monthly report.",
+        provider: { "@id": "https://beware.dog/#organization" },
+        areaServed: { "@type": "Country", name: "United States" },
+        audience: {
+          "@type": "BusinessAudience",
+          audienceType:
+            "Small businesses of 5 to 50 people that move money by email: title and escrow companies, bookkeepers, accounting firms, agencies, clinics",
+        },
+        offers: {
+          "@type": "Offer",
+          price: "149",
+          priceCurrency: "USD",
+          description: "Founding rate, locked for life. Standard rate is $299/mo.",
+          url: "https://beware.dog/#offer",
+          availability: "https://schema.org/InStock",
+        },
       },
     },
   ],
