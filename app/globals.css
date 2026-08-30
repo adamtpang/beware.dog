@@ -39,6 +39,11 @@ body {
   color: #0a0b0e;
 }
 
+:focus-visible {
+  outline: 3px solid var(--color-brass-soft);
+  outline-offset: 3px;
+}
+
 .font-display {
   font-family: var(--font-display);
   letter-spacing: -0.02em;

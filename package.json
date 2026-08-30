@@ -6,15 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc --noEmit",
     "watch:lookalike": "node scripts/lookalike-check.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
     "@tailwindcss/postcss": "^4.3.2",
     "@vercel/analytics": "^2.0.1",
-    "next": "^16.2.10",
-    "postcss": "^8.5.16",
+    "next": "^16.3.3",
+    "postcss": "^8.5.26",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.2"
@@ -23,6 +25,8 @@
     "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.3",
     "typescript": "^5.9.3"
   }
 }

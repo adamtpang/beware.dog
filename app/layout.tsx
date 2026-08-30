@@ -16,7 +16,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const title = "beware.dog: the AI guard dog for your business";
+const title = "beware.dog: fraud monitoring for small business";
 const description =
   "beware.dog watches for lookalike domains built to scam you, then drills your team monthly against fake-invoice email and voice-clone phone scams.";
 
@@ -29,16 +29,15 @@ export const metadata: Metadata = {
     canonical: "https://beware.dog",
   },
   keywords: [
-    "small business cybersecurity",
-    "phishing protection",
-    "ransomware protection",
-    "AI security",
-    "managed security for small business",
+    "small business fraud monitoring",
+    "lookalike domain monitoring",
+    "invoice fraud training",
+    "voice-clone fraud drills",
   ],
   openGraph: {
     title,
     description:
-      "24/7 AI security for small businesses. It watches, it warns, it never sleeps.",
+      "Weekly lookalike-domain monitoring, monthly fraud drills, and one plain-English report for small businesses.",
     url: "https://beware.dog",
     siteName: "beware.dog",
     type: "website",
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "beware.dog",
     description:
-      "The AI guard dog for your business. It watches, it warns, it never sleeps.",
+      "A weekly fraud watch with monthly drills for the people who move your business's money.",
   },
 };
 

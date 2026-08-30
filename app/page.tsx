@@ -122,7 +122,7 @@ export default function Home() {
               href="#offer"
               className="rounded-lg bg-brass px-4 py-2 text-sm font-semibold text-night transition hover:bg-brass-soft"
             >
-              Get protected
+              Start The Watch
             </a>
           </div>
         </nav>
@@ -138,7 +138,7 @@ export default function Home() {
                 Beware of Dog
               </p>
               <h1 className="font-display text-4xl font-black leading-[1.03] sm:text-5xl lg:text-[3.9rem]">
-                An AI guard dog that never sleeps on your business.
+                A fraud watch for the business you built.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-ash">
                 Someone registers a domain one letter off from yours. They email
@@ -153,7 +153,7 @@ export default function Home() {
                   href="#offer"
                   className="group inline-flex items-center gap-2 rounded-xl bg-brass px-6 py-4 text-base font-bold text-night shadow-[0_0_40px_-8px_rgba(245,179,1,0.5)] transition hover:bg-brass-soft"
                 >
-                  Put the dog on watch
+                  Start The Watch
                   <span className="transition group-hover:translate-x-0.5">
                     &rarr;
                   </span>
@@ -389,9 +389,11 @@ export default function Home() {
 
                 <a
                   href={PAYMENT_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-brass px-6 py-4 text-base font-bold text-night transition hover:bg-brass-soft"
                 >
-                  Claim a founding spot
+                  Subscribe to The Watch
                 </a>
                 <p className="mt-3 text-center text-xs text-ash-dim">
                   Secure checkout by Stripe. Cancel anytime.
@@ -441,8 +443,8 @@ export default function Home() {
                 </span>
               </a>
               <p className="mt-4 text-sm leading-relaxed text-ash">
-                The AI guard dog for small business. It watches, it warns, it
-                never sleeps.
+                Weekly lookalike-domain scans, monthly fraud drills, and one
+                plain-English report for small business.
               </p>
             </div>
             <div className="text-sm text-ash">
@@ -455,6 +457,11 @@ export default function Home() {
               >
                 {CONTACT_EMAIL}
               </a>
+              <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs">
+                <a href="/about" className="transition hover:text-brass">About</a>
+                <a href="/contact" className="transition hover:text-brass">Contact</a>
+                <a href="/privacy" className="transition hover:text-brass">Privacy</a>
+              </div>
             </div>
           </div>
           <div className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-line/70 pt-6 text-xs text-ash-dim sm:flex-row sm:items-center">
